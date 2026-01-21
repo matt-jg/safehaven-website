@@ -1,0 +1,187 @@
+
+
+/* * {
+  outline: 1px solid rgb(255, 0, 0);
+} */
+
+.content {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  width: 100%;
+}
+
+.header, .section_one, .section_two, .section_four, .footer {
+  width: 100%;
+}
+
+body{
+  margin: 0px;
+  font-family: "Roboto", serif;
+  background-color: #111111e7;
+}
+
+.header {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.section_one{
+  padding-bottom: 20px;
+  width: 100%;
+  padding: 100px 0;
+}
+
+.section_one_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  flex: 1;
+}
+
+.section_one_right {
+  flex: 1;
+}
+
+.section_two{
+  padding: 48px 0;
+  width: 100%;
+}
+
+.section_two .content {
+  flex-direction: column;
+}
+
+.merch-images {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px 
+}
+
+.merch-image {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section_three {
+  padding: 40px 0;
+  height: 200px;
+}
+
+.section_three .content {
+  padding: 0px;
+  gap: 0px;
+  flex-direction: column;
+}
+
+.section_four {
+  height: 200px;;
+}
+
+.section_four .content {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 40px 0;
+}
+
+.section_four h2, 
+.section_four p {
+  margin: 0;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.quote {
+  margin-top: 56px;
+  font-size: 36px;
+  color: #e5e7eb;
+  font-weight: 300;
+}
+
+.quote-author {
+  color: #e5e7eb;
+  align-self: flex-end;
+  margin: 0;
+  margin-right: 200px;
+}
+
+h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+  margin: 0;
+}
+
+h2 {
+  color: #f9faf8;
+}
+
+p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.links{
+  display: flex;
+  flex: 1;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  justify-content: right;
+  flex: 1;
+  list-style-type: none;
+  font-size: 18px;
+  color: #e5e7eb;
+  gap: 16px;
+}
+
+a {
+  /* this removes the line under our links */
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.button {
+  flex: 0, 1, 0;
+  font-family: "Roboto", serif;
+  background-color: #474747;
+  color: #e5e7eb;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-align: center;
+  width: 72px;
+  border: none;
+  cursor: pointer;
+}
+
+.footer .content {
+  gap: 0px;
+  justify-content: center;
+}
