@@ -11,6 +11,8 @@
   gap: 50px;
   align-items: center;
   width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
 
 .header, .section_one, .section_two, .section_four, .footer {
@@ -21,6 +23,13 @@ body{
   margin: 0px;
   font-family: "Roboto", serif;
   background-color: #111111e7;
+}
+
+@media (max-width: 600px) {
+  .merch-images {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .header {
